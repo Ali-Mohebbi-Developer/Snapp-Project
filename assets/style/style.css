@@ -1,0 +1,499 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Vazirmatn";
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.btn {
+    border-radius: 5px;
+    padding: 10px 25px;
+    border: none;
+    outline: none;
+}
+
+
+header {
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+header>.header-controller {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+header>div>figure>a>img {
+    margin-top: 10px;
+    width: 120px;
+}
+
+header>div>nav>a,
+footer>nav>a {
+    color: #5a5a5a;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header>div>nav>a {
+    margin-right: 30px;
+}
+
+/* ////////////////////////////////////////////// */
+main {
+    margin-top: 90px;
+}
+
+main :is(h2, h3) {
+    color: #3f3f3f;
+}
+
+main p {
+    color: #404040;
+}
+
+main>.enter>div:first-of-type {
+    display: flex;
+}
+
+main>.enter>div:first-of-type>figure {
+    width: 67%;
+}
+
+main>.enter>div:first-of-type>figure>img {
+    width: 100%;
+    transform: scaleX(-1);
+    object-fit: cover;
+}
+
+main>.enter .login {
+    background-color: #21aa58;
+    height: 427.5px;
+}
+
+main>.enter>.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    background-color: #fff;
+}
+
+main>.enter>.links>div {
+    display: flex;
+    width: 77%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main>.enter>.links>div>a>figure>img {
+    width: 170px;
+}
+
+.login>div {
+    margin-left: 30px;
+    width: 66%;
+    text-align: right;
+}
+
+.login-container {
+    color: #fff;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container>* {
+    margin-bottom: 30px;
+}
+
+.login-container>h1 {
+    font-size: 38px;
+}
+
+.login-container>p {
+    font-size: 20px;
+    color: #fff;
+}
+
+.login-container>div {
+    position: relative;
+}
+
+.login-container>div::after {
+
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 1%;
+    background-color: #fff;
+    bottom: -10%;
+    right: 0;
+}
+
+.login-container>div>button {
+    background-color: #fff;
+    color: #00d16f;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 7px 25px;
+}
+
+.login-container>div>input {
+    margin-right: 5px;
+    background-color: #21aa58;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    direction: rtl;
+    width: 200px;
+    font-size: 16px;
+    margin-left: 60px;
+}
+
+.login-container>div>input::placeholder {
+    color: #fff;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+
+.login>div>button {
+    background-color: #21aa58;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.login>div>button:hover {
+    cursor: pointer;
+    background-color: #ffffff15;
+}
+
+/* ///////////////////////////////////////////////////////////// */
+
+.higher {
+    padding: 17.8px 8px !important;
+}
+
+.off {
+    height: 62px !important;
+}
+
+.services {
+    background-color: #f2f5f8;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.services>h2 {
+    font-size: 36px;
+    line-height: 52px;
+    font-weight: 700;
+    margin: 40px 0px;
+}
+
+.services>div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.services>div>div {
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    text-align: right;
+}
+
+.services>div>div>a {
+    margin: 18px;
+    text-decoration: none;
+    border-color: #e5e5e5;
+}
+
+.services>div>div>a>figure {
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 18px;
+    padding: 10px 8px;
+
+}
+
+
+.services>div>div>a>figure>img {
+    width: 62px;
+    margin-left: 15px;
+}
+
+.services>div>div>a>figure>figcaption>h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.services>div>div>a>figure>figcaption>p {
+    color: #a3a3a3;
+    font-size: 14px;
+}
+
+/* //////////////////////////////////////////////////////// */
+main>.description {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+main>.description h3 {
+    font-size: 22px;
+    margin-bottom: 16px;
+}
+
+main>.description p {
+    line-height: 1.8;
+    font-size: 14px;
+
+}
+
+main>.description>figure>img {
+    width: 70%;
+    margin-top: 80px;
+    border-radius: 15px;
+}
+
+main>.description>div:first-of-type {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+main>.description>div:first-of-type>div {
+    width: 50%;
+    text-align: right;
+    padding: 50px
+}
+
+main>.description>div:first-of-type>div>p {
+    padding-left: 180px;
+
+}
+
+main>.description>div:first-of-type>figure {
+    width: 50%;
+}
+
+main>.description>div:first-of-type>figure>img {
+    width: 100%;
+}
+
+main>.description>div:last-of-type {
+    display: flex;
+    justify-content: center;
+    margin-top: -80px;
+}
+
+main>.description>div:last-of-type>div {
+    display: flex;
+    flex-direction: column;
+    margin-inline: 32px;
+    width: 18%;
+}
+
+main>.description>div:last-of-type>div>h3,
+main>.description>div:last-of-type>div>p {
+    text-align: right;
+
+}
+
+main>.description>div:last-of-type>div>figure {
+    background-color: #f2f5f8;
+    border-radius: 18px;
+
+}
+
+main>.description>div:last-of-type>div>h3 {
+    font-size: 18px;
+}
+
+main>.description>div:last-of-type>div>p {
+    font-size: 12px;
+}
+
+/* /////////////////////////////////////////////////////////////////////// */
+
+main>.drivers {
+    background-color: #f2f5f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+main>.drivers>div:first-of-type {
+    text-align: center;
+}
+
+main>.drivers>div:first-of-type>h2 {
+    font-size: 36px;
+    line-height: 52px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+main>.drivers>div:first-of-type>p {
+    font-size: 20px;
+    font-weight: 300;
+    padding: 16px 0px;
+}
+
+main>.drivers>div:first-of-type>button {
+    font-size: 17px;
+    font-weight: bold;
+    background-color: rgb(0, 209, 112);
+    color: #fff;
+    border-radius: 6px;
+    margin: 16px 0px 55px;
+    padding: 12px 30px;
+}
+
+main>.drivers>div:first-of-type>button:hover {
+    cursor: pointer;
+    background-color: rgba(0, 209, 112, 0.88);
+}
+
+main>.drivers>div:last-of-type {
+    width: 70%;
+}
+
+main>.drivers>div:last-of-type>video {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+main>.drivers>div:last-of-type>div {
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: space-around;
+}
+
+main>.drivers>div:last-of-type figure {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    margin-top: 32px;
+    width: 48%;
+    height: 200px;
+    border-radius: 18px;
+    padding: 20px;
+}
+
+main>.drivers>div:last-of-type figure>img {
+    width: 120px;
+    height: 66px;
+}
+
+main>.drivers>div:last-of-type figure>figcaption>h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+
+main>.drivers>div:last-of-type figure>figcaption>p {
+    font-size: 14px;
+    line-height: 1.7;
+
+}
+
+/* ///////////////////////////////////////////////////////////// */
+footer {
+    padding-bottom: 100px;
+}
+
+footer>nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+footer>nav>a {
+    margin-right: 10px;
+}
+
+footer>div:first-of-type {
+    display: flex;
+    justify-content: center;
+}
+
+footer>div>a {
+    margin: 32px 8px;
+
+}
+
+footer>div>a>figure {
+    width: 24px;
+    height: 24px;
+}
+
+footer>div>a>figure>img {
+    width: 100%;
+    height: 100%;
+}
+
+footer>div:last-of-type {
+    margin: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+footer>div:last-of-type>.contact {
+    color: #00d16f;
+}
+
+footer>div:last-of-type>.instagram {
+    width: 245px;
+    margin: 20px auto;
+    background-image: linear-gradient(to right, #f9ce34, #ee2a7b, #6228d7);
+}
+
+footer>div:last-of-type>.linkedin,
+footer>div:last-of-type>.github,
+footer>div:last-of-type>.instagram {
+    color: #fff;
+    padding: 7px 30px;
+    border-radius: 8px;
+
+}
+
+footer>div:last-of-type>.linkedin {
+    background-color: #0e76a8;
+}
+
+footer>div:last-of-type>.github {
+    background-color: #191919;
+}
