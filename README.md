@@ -2,8 +2,6 @@
 
 **If you have a lot of information to display on your site, why don't you use my accordion menu**
 
-![Snapp-view](https://github.com/Ali-Mohebbi-Developer/Snapp-Project/assets/126477170/647e17f4-0050-4568-a5fc-e161156d2ce7)
-
 - [Demo Project](https://ali-mohebbi-developer.github.io/Snapp-Project/)
 
 - Developed by Ali Mohebbi
