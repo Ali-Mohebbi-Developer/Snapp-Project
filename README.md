@@ -2,7 +2,7 @@
 
 **If you have a lot of information to display on your site, why don't you use my accordion menu**
 
-- [Demo Project](https://github.com/Ali-Mohebbi-Developer/Snapp-Project)
+- [Demo Project](https://ali-mohebbi-developer.github.io/Snapp-Project/)
 
 - Developed by Ali Mohebbi
 
