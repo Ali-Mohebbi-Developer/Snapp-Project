@@ -12,4 +12,4 @@
 
 - Role - Frontend
 
-- How to reach me : with my [instagram](https://www.instagram.com/Ali_Mohebbi_Developer) and [linkedin](https://www.linkedin.com/Ali-Mohebbi-Developer)
+- How to reach me : with my [instagram](https://www.instagram.com/Ali_Mohebbi_Developer) and [linkedin](https://www.linkedin.com/in/ali-mohebbi-7165b7265/)
